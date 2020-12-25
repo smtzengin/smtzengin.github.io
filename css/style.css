@@ -4,13 +4,14 @@
 }
 
 #cvphoto{
-    border: 5px solid gray;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 50%;
 }
 
 
 #containerfln{
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
+    
     
 }
 #arastirma{
@@ -26,9 +27,10 @@ p{
 }
 
 nav #asd{
-    color: rgb(236, 15, 63);
+    color: rgb(8, 8, 8);
     border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
     margin: 15px;
-    background-image: url('/img/istockphoto-960504202-612x612.jpg');
+    background-image: url('/img/whitebg.jpg');
 }
+
