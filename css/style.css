@@ -10,12 +10,13 @@
 
 
 #containerfln{
-    border: 1px solid rgb(0, 0, 0);
-    
-    
+    border: 2px solid rgb(0, 0, 0);
+ 
 }
+
+
 #arastirma{
-    border: 1px solid grey;
+    border: 2px solid rgb(0, 0, 0);
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
