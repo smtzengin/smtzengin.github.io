@@ -6,6 +6,7 @@
     <title>BBG ODEV</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
@@ -81,15 +82,15 @@
                   </nav>
                   
                   <hr class="text-dark">
-                  <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+                  
                     <h4 id="odev-1" class="text-dark mt-3">IDE neler içerir? Linker, debugger, editör, compiler/interpreter</h4>
                     <p class=" mt-3 text-start" >
-                        - IDE : bilgisayar yazılımcılarının daha kolay şekilde yazılım geliştirebilmesi için tasarlanan ve yazılım geliştirme aşamasında geliştiriciye birçok kullanışlı araç sunarak daha kolay ve etkili şekilde yazılım geliştirmesine yardımcı olan yazılımlardır.
+                        <i class="fa fa-check"></i> IDE : bilgisayar yazılımcılarının daha kolay şekilde yazılım geliştirebilmesi için tasarlanan ve yazılım geliştirme aşamasında geliştiriciye birçok kullanışlı araç sunarak daha kolay ve etkili şekilde yazılım geliştirmesine yardımcı olan yazılımlardır.
 
                         <br>
                         <br>
 
-                        - Neler içerir? : Linker (Bağlayıcı) , Debugger(Hata Ayıklayıcı), editör (Düzenleyici) , compiler(derleyici), interpreter(yorumlayıcı)</p>
+                        <i class="fa fa-check"></i> Neler içerir? : Linker (Bağlayıcı) , Debugger(Hata Ayıklayıcı), editör (Düzenleyici) , compiler(derleyici), interpreter(yorumlayıcı)</p>
 
                         <hr class="text-dark">
                         
@@ -97,31 +98,31 @@
 
                         
                     <p class=" mt-3 text-start" >
-                        - <strong>Gereksinim Analizi:</strong> Yazılım projesinin ilk etabında
+                        <i class="fa fa-check"></i> <strong>Gereksinim Analizi:</strong> Yazılım projesinin ilk etabında
                         projenin ihtiyaç duyduğu ana modüller analiz
                         edilmeli, (software requirements specification)
                         proje amaçları ve hedefleri detaylandırılmalıdır
                         <br>
                         <br>
-                        - <strong>Tasarım:</strong> Oluşturmak istenilen proje web tabanlı,
+                        <i class="fa fa-check"></i> <strong>Tasarım:</strong> Oluşturmak istenilen proje web tabanlı,
                         mobil veya masaüstü olabilir. Bu doğrultuda
                         yapacağınız tasarımın bu platformlara veya
                         cihazlara uygun olması gerekmektedir.
                         <br>
                         <br>
-                        - <strong>Kodlama:</strong> Güçlü bir yazılım mimarisi ile çalışılmalı
+                        <i class="fa fa-check"></i> <strong>Kodlama:</strong> Güçlü bir yazılım mimarisi ile çalışılmalı
                         ve sonradan çıkabilecek tüm isteklere kolaylıkla
                         cevap verebilecek şeklide kodlama yapılmalıdır.
                         <br>
                         <br>
-                        - <strong>Sertifikasyon (Test):</strong> Önceden belirlenen
+                        <i class="fa fa-check"></i> <strong>Sertifikasyon (Test):</strong> Önceden belirlenen
                         gereksinimlerin karşılanıp, karşılanmadığı doğru
                         çıktıyı üretip, üretmediği testleri yapılmalıdır.
                         Kalite denetimi yapılarak kullanıcıya
                         sunulmasıdır
                         <br>
                         <br>
-                        - <strong>Bakım:</strong> Teslimat sonrasında çıkan sorunları
+                        <i class="fa fa-check"></i> <strong>Bakım:</strong> Teslimat sonrasında çıkan sorunları
                         gidermek ve performansı artırmak için yazılım
                         uygulamasını değiştirmek ve güncellemektir. Bu
                         değişimler basit kodlama hatası şeklinde
@@ -136,7 +137,7 @@
 
                         
                     <p class=" mt-3 text-start" >
-                        Derleyiciler sadece aynı seviyedeki programlama dilinde yazılan kodların aynı seviyedeki eşlerine çevrilmesinde görevli değildirler. Bir derleyici, üst seviye bir programlama dilinin kodunu daha alt seviyeli bir programlama diline çevirme görevini üstlenebilirler. Basit bir örnek vermek gerekirse; bilgisayarınızda C diliyle hazırlamış olduğunuz bir yazılımı derleyiciler sayesinde makine dili olarak kabul edilen Assembly veya daha alt seviyeli programlama dillerine dönüştürebilirsiniz.</p>
+                        <i class="fa fa-check"></i> Derleyiciler sadece aynı seviyedeki programlama dilinde yazılan kodların aynı seviyedeki eşlerine çevrilmesinde görevli değildirler. Bir derleyici, üst seviye bir programlama dilinin kodunu daha alt seviyeli bir programlama diline çevirme görevini üstlenebilirler. Basit bir örnek vermek gerekirse; bilgisayarınızda C diliyle hazırlamış olduğunuz bir yazılımı derleyiciler sayesinde makine dili olarak kabul edilen Assembly veya daha alt seviyeli programlama dillerine dönüştürebilirsiniz.</p>
 
                         <hr class="text-black-50">
 
@@ -144,7 +145,7 @@
 
                         
                     <p class=" mt-3 text-start" >
-                        Yorumlayıcı, kaynak kodu komut komut okuyup üzerinde çalışılan makinenin komut setine çevirerek çalıştıran bir programdır. Yorumlanarak çalıştırılan yüksek seviyeli diller doğrudan yorumlanmazlar. Genellikle bir ara forma(Opcode, Bytecode vs.) derlenir ve bu kodlar yorumlanarak yerel makine diline çevrilir ve işletilir. Java, PHP, Python gibi yorumlanan diller aslında yorumlama aşamasına geçilmeden önce en az 1 kere derlenirler.</p>
+                        <i class="fa fa-check"></i>Yorumlayıcı, kaynak kodu komut komut okuyup üzerinde çalışılan makinenin komut setine çevirerek çalıştıran bir programdır. Yorumlanarak çalıştırılan yüksek seviyeli diller doğrudan yorumlanmazlar. Genellikle bir ara forma(Opcode, Bytecode vs.) derlenir ve bu kodlar yorumlanarak yerel makine diline çevrilir ve işletilir. Java, PHP, Python gibi yorumlanan diller aslında yorumlama aşamasına geçilmeden önce en az 1 kere derlenirler.</p>
 
                         <hr class="text-dark">
 
@@ -153,19 +154,19 @@
 
                         
                     <p class=" mt-3 text-start" >
-                        - interpreter bir seferde programın yalnızca bir ifadesini makine koduna çevirir, Compiler ise tüm programı tarar ve tamamını tek seferde makine koduna çevirir
+                        <i class="fa fa-check"></i> interpreter bir seferde programın yalnızca bir ifadesini makine koduna çevirir, Compiler ise tüm programı tarar ve tamamını tek seferde makine koduna çevirir
                         <br>
-                        - interpreterler genellikle kaynak kodunu analiz etmek için daha az zaman harcar. Ancak, genel yürütme süresi compilerlardan daha yavaştır.
+                        <i class="fa fa-check"></i> interpreterler genellikle kaynak kodunu analiz etmek için daha az zaman harcar. Ancak, genel yürütme süresi compilerlardan daha yavaştır.
                         <br>
-                        - Compilerlar ise genellikle kaynak kodunu analiz etmek için çok zaman alır. Ancak genel yürütme süresi interpreterlere göre daha hızlıdır
+                        <i class="fa fa-check"></i> Compilerlar ise genellikle kaynak kodunu analiz etmek için çok zaman alır. Ancak genel yürütme süresi interpreterlere göre daha hızlıdır
                         <br>
-                        - interpretelerde Ara nesne kodu üretilmez, dolayısıyla bellek verimlidir.
+                        <i class="fa fa-check"></i> interpretelerde Ara nesne kodu üretilmez, dolayısıyla bellek verimlidir.
                         <br>
-                        - Compilerlarda ise Daha fazla bağlantı gerektiren ara nesne kodu üretir, bu nedenle daha fazla bellek gerektirir.
+                        <i class="fa fa-check"></i> Compilerlarda ise Daha fazla bağlantı gerektiren ara nesne kodu üretir, bu nedenle daha fazla bellek gerektirir.
                         <br>
-                        - JavaScript, Python, Ruby gibi programlama dillerini interpreter kullanır.
+                        <i class="fa fa-check"></i> JavaScript, Python, Ruby gibi programlama dillerini interpreter kullanır.
                         <br>
-                        - C, C ++, Java gibi programlama dillerini compiler kullanır.</p>
+                        <i class="fa fa-check"></i> C, C ++, Java gibi programlama dillerini compiler kullanır.</p>
 
                         <hr class="text-dark">
 
@@ -175,7 +176,7 @@
 
                         
                     <p class=" mt-3 text-start" >
-                        - Programlama bilgisayarda, bir alt program bir birim olarak paketlenmiş belirli bir görevi yerine getiren bir dizi program talimatıdır. Bu ünite daha sonra söz konusu görevin yapılması gereken her yerde programlarda kullanılabilir.</p>
+                        <i class="fa fa-check"></i> Programlama bilgisayarda, bir alt program bir birim olarak paketlenmiş belirli bir görevi yerine getiren bir dizi program talimatıdır. Bu ünite daha sonra söz konusu görevin yapılması gereken her yerde programlarda kullanılabilir.</p>
 
                         <hr class="text-dark">
 
@@ -184,18 +185,18 @@
 
                         
                     <p class=" mt-3 text-start" >
-                        - Gerçek dünyadaki nesnelerin tasarımları sınıf içinde yapılır.
+                        <i class="fa fa-check"></i> Gerçek dünyadaki nesnelerin tasarımları sınıf içinde yapılır.
                         <br>
 
-                        - Sınıftan nesne üretilip değişiklik yapılmak istendiğinde tüm programda değişiklik yapmak gerekmez sadece oluşturulan nesnenın sınıf içinde değişiklik yapmak yeterlidir.
+                        <i class="fa fa-check"></i> Sınıftan nesne üretilip değişiklik yapılmak istendiğinde tüm programda değişiklik yapmak gerekmez sadece oluşturulan nesnenın sınıf içinde değişiklik yapmak yeterlidir.
                         <br>
-                        - Oluşturulan nesneler birbirinden bağımsız olduğu için bilgi gizleme olanağı artar.
+                        <i class="fa fa-check"></i> Oluşturulan nesneler birbirinden bağımsız olduğu için bilgi gizleme olanağı artar.
                         <br>
-                        - Nesne oluşturma bir sınıf içerisinde gerçekleştirilir ve bu kodlar başka projelerde kullanılabilir.
+                        <i class="fa fa-check"></i> Nesne oluşturma bir sınıf içerisinde gerçekleştirilir ve bu kodlar başka projelerde kullanılabilir.
                         <br>
-                        - Sınıflar oluşturarak daha az kod oluşturup daha fazla iş yapıp kod tekrarı önlenir.
+                        <i class="fa fa-check"></i> Sınıflar oluşturarak daha az kod oluşturup daha fazla iş yapıp kod tekrarı önlenir.
                         <br>
-                        - Kod tekrarı önlediği için geliştirme sürecinin verimliliğini artırır.</p>
+                        <i class="fa fa-check"></i> Kod tekrarı önlediği için geliştirme sürecinin verimliliğini artırır.</p>
 
                         <hr class="text-dark">
 
@@ -205,13 +206,13 @@
 
                         
                     <p class=" mt-3 text-start" >
-                        - <strong>Soyutlama:</strong>  Bir sınıfta davranış ve özelliklerin tanımlanmasına soyutlama diyoruz.
+                        <i class="fa fa-check"></i> <strong>Soyutlama:</strong>  Bir sınıfta davranış ve özelliklerin tanımlanmasına soyutlama diyoruz.
                         <br>
 
                         Örneğin : araba sınıfında rengi, modeli, tekerlek sayısı, motor gücü, özellikleridir. Hızlanması, fren yapması, durması davranışlarıdır ve metotlar ile tanımlanır.
                         <br>
 
-                        - <strong>Kapsülleme:</strong> Davranış ve özellikler sınıfta soyutlanarak kapsüllenir. Kapsülleme ile hangi özellik ve davranışın dışarıya sunulup sunulmayacağını belirleriz. 
+                        <i class="fa fa-check"></i> <strong>Kapsülleme:</strong> Davranış ve özellikler sınıfta soyutlanarak kapsüllenir. Kapsülleme ile hangi özellik ve davranışın dışarıya sunulup sunulmayacağını belirleriz. 
                         <br>
                         *public : herkesin kullanabileceği özellik ve davranışlardır.
                         <br>
@@ -221,16 +222,61 @@
                         <br>
 
                         <br>
-                        <strong>Kalıtım:</strong> Kalıtım, kelimesi aslında biyolojide anlamı ile aynıdır. Adından da anlaşılacağı gibi bir sınıfın özelliklerini diğer sınıfa olduğu gibi aktarmasıdır.
+                        <i class="fa fa-check"></i> <strong>Kalıtım:</strong> Kalıtım, kelimesi aslında biyolojide anlamı ile aynıdır. Adından da anlaşılacağı gibi bir sınıfın özelliklerini diğer sınıfa olduğu gibi aktarmasıdır.
                         <br>
-                         Sınıflar birbirinden türeyebilir. Alt sınıf üst sınıfın özelliklerini alabilir
+                        Sınıflar birbirinden türeyebilir. Alt sınıf üst sınıfın özelliklerini alabilir
                         <br>
-                        - <strong>Çok Biçimlilik:</strong> Alt sınıflar üst sınıfın gösterdiği davranışları göstermek zorunda değildir. Alt sınıfların farklı davranışları göstermesine Çok biçimlilik denilmektedir.
+                        <i class="fa fa-check"></i> <strong>Çok Biçimlilik:</strong> Alt sınıflar üst sınıfın gösterdiği davranışları göstermek zorunda değildir. Alt sınıfların farklı davranışları göstermesine Çok biçimlilik denilmektedir.
                         <br>
                         </p>
 
                         <hr class="text-dark">
-                    
+                        
+                        
+
+                        <h2 id="odev-9" class="text-dark mt-3 ">Yapısal Programlama Nedir? </h2>
+
+                        
+                    <p class=" mt-3 text-start" >
+                        <i class="fa fa-check"></i> <strong>Yapısal programlama</strong>, geniş programları, küçük parçalara bölerek çözümleme yöntemidir. Her parça, kod ve değişkenleri diğerlerinden soyutlanmış bağımsız fonksiyonlar olarak çözümlenecektir. Bu fonksiyonlara tek giriş noktasından veri beslenmeli ve tek çıkış noktasından değer döndürülmelidir. Yapısal programlama, (Structured Programming) teoremi, kökenleri 1946 daki bilgisayar yapımına yön vermiş olan von Neumann Yapılanmasına dayanan programlama dilleri kuramının bir sonucudur. Bu teoreme göre, hesaplanabilen her fonksiyon, bir programlama diline, üç türlü kontrol yapılanması kullanılarak yerleştirilebilir. Bu kontrol yapılanmaları,
+                        <br>
+                        <strong> * </strong> Sıralı Çalıştırma (Sequential Execution)
+                        <br>
+                        <strong> * </strong> Mantıksal Program Akışı (Logical Program Flow)
+                        <br>
+                        
+                        <strong> * </strong> Bir alt programın mantıksal bir değişkenin değeri gerçek (true) olana kadar çalışması (iterasyon) olarak tanımlanır. 
+                        <br>
+
+                        <i class="fa fa-check"></i>Yapısal programlama kuramı, son yıllarda tam olarak yerleşmiştir. Bu kurama uymayan program dilleri örnekleri, COBOL, FORTRAN ve BASIC iken, yapısal programlama dilleri örnekleri olarak, Pascal, Ada, Java, JavaScript sayılabilir. Bu teorem, gözönüne alınarak, büyük bir program, küçük alt programlara bölünerek modüler bir yapı içinde organize edilmelidir. Modüller veya alt programlar (fonksiyonlar), sıralı bir şekilde çalıştırılmalıdır. Modüllerin çalışma sırası mantıksal olarak belirlenmelidir. Pratikte bu işleme mantıksal program yürüyüşü adı verilir Mantıksal program akışında, program yürüyüşü, GO TO deyimleri gibi mantıksal olmayan yöntemlerle dallanmaz. Yapısal programlarda alt programlara tek giriş ve tek çıkış noktası olmalıdır (iterasyon). Yani bir alt program, sadece belirli argümanlarla çağrılmalı ve sadece bir tek return ifadesi ile değer döndürülmelidir.
+                        </p>
+                        <hr class="text-dark">
+
+
+
+                        <h2 id="odev-10" class="text-dark mt-3 ">OOP ve Yapısal Programlama Arasındaki Farklar </h2>
+
+                        
+                    <p class=" mt-3 text-start" >
+                        <i class="fa fa-check"></i> Yapısal programlama sadece tek bir soruna odaklanılır ve her sorun için farklı fonksiyonlar yazılır buda programın karmaşıklığı artmasına yol açar.
+                        <br>
+                        <i class="fa fa-check"></i> Nesne yönelimli programlama ise birbiriyle iletişim ve etkileşim halinde olan fonksiyonlar ile yazılır buda programın kolay anlaşılmasına ve basit olmasını sağlar.
+                        <br>
+                        <i class="fa fa-check"></i> Nesne yönelimli programlama yaklaşımı yapısal programlama yaklaşımının daha genişletilmiş ve gerçeğe yakın modelidir.</p>
+
+                        <hr class="text-dark">
+
+
+                        <h2 id="odev-11" class="text-dark mt-3 ">Fortran Nedir? </h2>
+
+                        
+                    <p class=" mt-3 text-start" >
+                        <i class="fa fa-check"></i> Fortran özellikle sayısal hesaplama ve bilimsel hesaplama için uygun olan genel amaçlı, yordamsal, zorunlu programlama dilidir.
+                        <br>
+
+                        <i class="fa fa-check"></i> 1954'te [IBM] tarafından üretilen IBM 704 için ilk sürümü [John Backus] ve ekibi tarafından geliştirilmiştir. Backus ve ekibi Kasım 1954'te "The IBM Mathematical <strong>FOR</strong>mula <strong>TRAN</strong>slating System: Fortran" isimli raporu yayınlamışlardır. Fortran ilk yüksek düzey programlama dili olmasa da 1950'deki yüksek programlama dilleri derlenmeden, bir [yorumlayıcı]interpreter yardımıyla çalıştırılıyordu. Bu da [makine koduyla] yazılan programlardan en az 10 kat daha yavaş çalışmalarına sebep oluyordu. 1950'lerdeki bilgisayarlar için hız çok şey ifade ettiğinden yazması zor da olsa makine kodu bu yüzden hala populerdi. İşte bu noktada Backus ve ekibi hem yüksek programlama dilleri gibi kolay yazılabilen hem de makine kodunda yazılmış gibi hızlı çalışan bir programlama dili sözüyle Fortran 'ı tanıttılar. Fortran 'ı diğer yüksek düzey programlama dillerinden ayıran bir çevirici yerine bir derleyicicompiler kullanmasıydı. Program yüksek düzey dilde yazıldıktan sonra makine koduna çevriliyor ve böylece hız kaybı engelleniyordu. Her ne kadar ilk derlenebilir yüksek düzey dilin Fortran olup olmadığı hala tartışma konusu olsa da, Fortran geniş kitleler tarafından kullanılmış ilk yüksek düzey derlenebilir dildir. İlk Fortran sürümü <strong>Fortran 0'dır</strong></p>
+
+                        <hr class="text-dark">
                   </div>
 
             </div>
