@@ -1,0 +1,34 @@
+#borderlili{
+    border-right: 1px solid gray;
+    height: 50px;
+}
+
+#cvphoto{
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+
+
+#containerfln{
+    border: 1px solid grey;
+    
+}
+#arastirma{
+    border: 1px solid grey;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#odev-2{
+    color: cadetblue;
+}
+
+nav #asd{
+    color: rgb(236, 15, 63);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 25px;
+    background-image: url('/img/istockphoto-960504202-612x612.jpg');
+}
