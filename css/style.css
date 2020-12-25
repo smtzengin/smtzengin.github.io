@@ -18,6 +18,10 @@
 #arastirma{
     border: 2px solid rgb(0, 0, 0);
 }
+
+#javaodev{
+    border: 2px solid rgb(0, 0, 0);
+}
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
